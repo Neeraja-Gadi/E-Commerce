@@ -110,7 +110,7 @@ const HomePage = () => {
       <div className="container-fluid row mt-3">
         <div className="col-md-2">
           <h4 className="text-center">Filter By Category</h4>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column margin-2 padding-2">
             {categories?.map((c) => (
               <Checkbox
                 key={c._id}
@@ -131,7 +131,7 @@ const HomePage = () => {
               ))}
             </Radio.Group>
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column mb-5">
             <button
               className="btn btn-danger"
               onClick={() => window.location.reload()}

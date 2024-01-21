@@ -28,7 +28,7 @@ Layout.defaultProps = {
   title: "E-commerce app - shop now",
   description: "MERN stack project",
   keywords: "MERN,react,node,mongodb",
-  author: "Vishal",
+  author: "Neeraja",
 };
 
 export default Layout;
