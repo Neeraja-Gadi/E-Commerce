@@ -9,7 +9,7 @@
     "server": "nodemon src/index.js",
     "dev": "node src/index.js",
     "client": "npm run start --prefix ./client",
-    "build": "npm install --prefix ./client && npm run build --prefix ./client",
+
     "start": "concurrently \"npm run start\" \"npm run client\""
   },
   "keywords": [],
